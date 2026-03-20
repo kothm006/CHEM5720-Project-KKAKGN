@@ -1884,6 +1884,10 @@ input, select, textarea {
 				width: 50%;
 			}
 
+			.image-lo {
+				width: 20%;
+			}
+
 /* Icon */
 
 	.icon {
