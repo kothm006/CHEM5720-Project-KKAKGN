@@ -1848,6 +1848,7 @@ input, select, textarea {
 
 	.image {
 		border: 0;
+		width: 50%;
 		position: relative;
 	}
 
@@ -1871,7 +1872,7 @@ input, select, textarea {
 			}
 
 		.image.featured {
-			display: block;
+			display: inline-grid;
 			margin: 0 0 2em 0;
 		}
 
