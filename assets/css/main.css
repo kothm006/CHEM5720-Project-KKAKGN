@@ -1885,7 +1885,7 @@ input, select, textarea {
 			}
 
 			.image-lo {
-				display: block;
+				display: inline-grid;
 				width: 20%;
 			}
 
