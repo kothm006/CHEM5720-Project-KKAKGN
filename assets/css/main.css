@@ -1848,7 +1848,6 @@ input, select, textarea {
 
 	.image {
 		border: 0;
-		width: 100%;
 		position: relative;
 	}
 
@@ -1872,13 +1871,17 @@ input, select, textarea {
 			}
 
 		.image.featured {
-			display: inline-grid;
+			display: block;
 			margin: 0 0 2em 0;
 		}
 
 			.image.featured img {
 				display: block;
 				width: 100%;
+			}
+			.image-small {
+				display: inline-grid;
+				width: 50%;
 			}
 
 /* Icon */
